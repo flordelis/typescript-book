@@ -49,6 +49,9 @@ Você também pode baixar um dos seguintes:
 * [PDF para Windows e outros](https://www.gitbook.com/download/pdf/book/basarat/typescript)
 * [MOBI para Kindle](https://www.gitbook.com/download/mobi/book/basarat/typescript)
 
+
+> Nota: Antes de descarregar qualquer arquivo tome nota que eles fazem parte da compilação original deste repositório, seu idioma principal continua sendo EN-Us. [Clique aqui](https://jorgedacostaza.gitbook.io/typescript-pt/) para poder acessar o mesmo conteúdo traduzido para PT-Br.
+
 ## Agradecimentos especiais
 Todos os incríveis [colaboradores](https://github.com/basarat/typescript-book/graphs/contributors) 🌹
 
