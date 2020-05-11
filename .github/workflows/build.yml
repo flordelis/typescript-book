@@ -10,6 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       SHA: ${{ github.sha }}
+      LANG: "pt"
     steps:
       - uses: actions/checkout@v1
       - uses: actions/setup-node@v1
@@ -26,15 +27,15 @@ jobs:
       - name: upload pdf artifact
         uses: actions/upload-artifact@v1
         with:
-          name: typescript-book.pdf
+          name: typescript-book-${{ env.LANG }}.pdf
           path: output/typescript-book-${{ env.SHA }}.pdf
       - name: upload epub artifact
         uses: actions/upload-artifact@v1
         with:
-          name: typescript-book.epub
+          name: typescript-book-${{ env.LANG }}.epub
           path: output/typescript-book-${{ env.SHA }}.epub
       - name: upload mobi artifact
         uses: actions/upload-artifact@v1
         with:
-          name: typescript-book.mobi
+          name: typescript-book-${{ env.LANG }}.mobi
           path: output/typescript-book-${{ env.SHA }}.mobi
